@@ -2,11 +2,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 // Bootstrap CSS
-// import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 // Bootstrap JS
-// import 'bootstrap'
-// import 'jquery'
-// import 'popper.js'
+import 'bootstrap'
+import 'jquery'
+import 'popper.js'
 // Custom Components and Styles
 import NavBar from "./navbar.jsx"
 import '../css/main.css'
@@ -14,16 +14,9 @@ import '../css/main.css'
 function Intro() {
   return (
     <div id="intro" className="bg">
-    <div className="row h-100">
-      <div className="col my-auto px-auto">
-        <h1 className="text-left pl-3"> Charana Nandasena  </h1>
-        <h4 className="text-left pl-3"> Computer science graduate </h4>
-        <h5 className="text-left pl-3"> Interested in scalable cloud and distributed architectures </h5>
-      </div>
-      <div className="col">
-        Hello World
-      </div>
-    </div>
+      <span className="ml-3 name"> 
+        Charana Nandasena
+      </span>
     </div>
   )
 }

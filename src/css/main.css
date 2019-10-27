@@ -21,3 +21,8 @@ body {
     top: 0;
     left: 0;
 }
+
+.name {
+    font-size: 60px;
+    border-bottom: 2px solid maroon;
+}
