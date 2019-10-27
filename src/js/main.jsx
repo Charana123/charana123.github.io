@@ -31,8 +31,8 @@ function MainPage() {
           <Experience/>
           <span id="projects"> </span>
           <Projects/>
-          <span id="education"> </span>
-          <Education/>
+          {/* <span id="education"> </span> */}
+          {/* <Education/> */}
         </div>
       </div>    
       </React.Fragment>

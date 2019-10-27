@@ -4,7 +4,7 @@ import "../css/common.css"
 
 export default function Projects() {
     return (
-        <div id="projects">
+        <div id="projects-container">
             <span className="heading"> Projects </span>
         </div>
     )

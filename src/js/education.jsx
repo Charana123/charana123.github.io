@@ -4,7 +4,7 @@ import "../css/common.css"
 
 export default function Education() {
     return (
-        <div id="education">
+        <div id="education-container">
             <span className="heading"> Education </span>
         </div>
     )
