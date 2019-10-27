@@ -11,6 +11,9 @@ import 'popper.js'
 import NavBar from "./navbar.jsx"
 import Intro from "./intro.jsx"
 import AboutMe from "./about.jsx"
+import Experience from "./experience.jsx"
+import Projects from "./projects.jsx"
+import Education from "./education.jsx"
 import '../css/main.css'
 
 
@@ -24,6 +27,12 @@ function MainPage() {
           <Intro/>
           <span id="about"> </span>
           <AboutMe/>
+          <span id="experience"> </span>
+          <Experience/>
+          <span id="projects"> </span>
+          <Projects/>
+          <span id="education"> </span>
+          <Education/>
         </div>
       </div>    
       </React.Fragment>

@@ -53,7 +53,19 @@
     color: rgb(200, 191, 191);
 }
 #about {
-    height: 350px;
+    height: 300px;
+    color: white;
+}
+#experience {
+    height: 500px;
+    color: white;
+}
+#projects {
+    height: 300px;
+    color: white;
+}
+#education {
+    height: 300px;
     color: white;
 }
 body {

@@ -296,6 +296,28 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
+/***/ "./src/css/education.css":
+/*!*******************************!*\
+  !*** ./src/css/education.css ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/css/education.css?");
+
+/***/ }),
+
+/***/ "./src/css/experience.css":
+/*!********************************!*\
+  !*** ./src/css/experience.css ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/css/experience.css?");
+
+/***/ }),
+
 /***/ "./src/css/intro.css":
 /*!***************************!*\
   !*** ./src/css/intro.css ***!
@@ -329,6 +351,17 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
+/***/ "./src/css/projects.css":
+/*!******************************!*\
+  !*** ./src/css/projects.css ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/css/projects.css?");
+
+/***/ }),
+
 /***/ "./src/js/about.jsx":
 /*!**************************!*\
   !*** ./src/js/about.jsx ***!
@@ -338,6 +371,30 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return AboutMe; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_about_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/about.css */ \"./src/css/about.css\");\n/* harmony import */ var _css_about_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_about_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/common.css */ \"./src/css/common.css\");\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_common_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction AboutMe() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"about\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"heading\"\n  }, \" About Me \"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"jumbotron jumbotron-style\"\n  }, \"A driven software engineer, seeking exciting challenges on work and off work. I recently graduated from The University of Bristol, United Kingdom with a 75%, UK First Class Honors or US 4.25 GPA score. The technical difficult or novelty of a topic interest me, taking me several which ways - from theoretically challenging topics - cryptography, quantum information theory, algorithm design, machine learning, computer graphics to traditional fullstack engineering. My efforts since 2 years ago have moved towards architecting and developing complex software systems, to which there are several facets. Front-End (React, Angular), Backend (Golang, NodeJS, Java, C++), Scalability (FAAS, Docker, Microservices, Kubernetes), Security (Identity and Access Management), Asynchronous Message Passing (Apache Kafka), Monitoring and Logging (Grafana), Datastore (Redis, NoSQL and SQL Databases). Take a look at Experience and Projects to see how i've worked with these technologies, enjoy :).\"));\n}\n\n//# sourceURL=webpack:///./src/js/about.jsx?");
+
+/***/ }),
+
+/***/ "./src/js/education.jsx":
+/*!******************************!*\
+  !*** ./src/js/education.jsx ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Education; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_education_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/education.css */ \"./src/css/education.css\");\n/* harmony import */ var _css_education_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_education_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/common.css */ \"./src/css/common.css\");\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_common_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction Education() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"education\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"heading\"\n  }, \" Education \"));\n}\n\n//# sourceURL=webpack:///./src/js/education.jsx?");
+
+/***/ }),
+
+/***/ "./src/js/experience.jsx":
+/*!*******************************!*\
+  !*** ./src/js/experience.jsx ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Experience; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_experience_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/experience.css */ \"./src/css/experience.css\");\n/* harmony import */ var _css_experience_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_experience_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/common.css */ \"./src/css/common.css\");\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_common_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction Experience() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"experience\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"heading\"\n  }, \" Experience \"));\n}\n\n//# sourceURL=webpack:///./src/js/experience.jsx?");
 
 /***/ }),
 
@@ -361,7 +418,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var popper_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! popper.js */ \"./node_modules/popper.js/dist/esm/popper.js\");\n/* harmony import */ var _navbar_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./navbar.jsx */ \"./src/js/navbar.jsx\");\n/* harmony import */ var _intro_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./intro.jsx */ \"./src/js/intro.jsx\");\n/* harmony import */ var _about_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./about.jsx */ \"./src/js/about.jsx\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/main.css */ \"./src/css/main.css\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_main_css__WEBPACK_IMPORTED_MODULE_9__);\n// React\n\n // Bootstrap CSS\n\n // Bootstrap JS\n\n\n\n // Custom Components and Styles\n\n\n\n\n\n\nfunction MainPage() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar_jsx__WEBPACK_IMPORTED_MODULE_6__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"main\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    \"data-spy\": \"scroll\",\n    \"data-target\": \"#scroll-spyed-list\",\n    \"data-offset\": \"0\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    id: \"intro\"\n  }, \" \"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_intro_jsx__WEBPACK_IMPORTED_MODULE_7__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    id: \"about\"\n  }, \" \"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_about_jsx__WEBPACK_IMPORTED_MODULE_8__[\"default\"], null))));\n}\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainPage, null), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./src/js/main.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var popper_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! popper.js */ \"./node_modules/popper.js/dist/esm/popper.js\");\n/* harmony import */ var _navbar_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./navbar.jsx */ \"./src/js/navbar.jsx\");\n/* harmony import */ var _intro_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./intro.jsx */ \"./src/js/intro.jsx\");\n/* harmony import */ var _about_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./about.jsx */ \"./src/js/about.jsx\");\n/* harmony import */ var _experience_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./experience.jsx */ \"./src/js/experience.jsx\");\n/* harmony import */ var _projects_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./projects.jsx */ \"./src/js/projects.jsx\");\n/* harmony import */ var _education_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./education.jsx */ \"./src/js/education.jsx\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/main.css */ \"./src/css/main.css\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_main_css__WEBPACK_IMPORTED_MODULE_12__);\n// React\n\n // Bootstrap CSS\n\n // Bootstrap JS\n\n\n\n // Custom Components and Styles\n\n\n\n\n\n\n\n\n\nfunction MainPage() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar_jsx__WEBPACK_IMPORTED_MODULE_6__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"main\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    \"data-spy\": \"scroll\",\n    \"data-target\": \"#scroll-spyed-list\",\n    \"data-offset\": \"0\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    id: \"intro\"\n  }, \" \"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_intro_jsx__WEBPACK_IMPORTED_MODULE_7__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    id: \"about\"\n  }, \" \"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_about_jsx__WEBPACK_IMPORTED_MODULE_8__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    id: \"experience\"\n  }, \" \"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_experience_jsx__WEBPACK_IMPORTED_MODULE_9__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    id: \"projects\"\n  }, \" \"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_projects_jsx__WEBPACK_IMPORTED_MODULE_10__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    id: \"education\"\n  }, \" \"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_education_jsx__WEBPACK_IMPORTED_MODULE_11__[\"default\"], null))));\n}\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainPage, null), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./src/js/main.jsx?");
 
 /***/ }),
 
@@ -374,6 +431,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return NavBar; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_navbar_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/navbar.css */ \"./src/css/navbar.css\");\n/* harmony import */ var _css_navbar_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_navbar_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction NavBar() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", {\n    className: \"sidenav\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"logo-container\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"logo\"\n  }, \" Charana Nandasena \"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"logo-text\"\n  }, \" Software Engineer \")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"scroll-spyed-list\",\n    className: \"list-group\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    className: \"list-group-item list-group-item-action\",\n    href: \"#intro1\"\n  }, \"Link 1\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    className: \"list-group-item list-group-item-action\",\n    href: \"#intro2\"\n  }, \"Link 2\")));\n}\n\n//# sourceURL=webpack:///./src/js/navbar.jsx?");
+
+/***/ }),
+
+/***/ "./src/js/projects.jsx":
+/*!*****************************!*\
+  !*** ./src/js/projects.jsx ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Projects; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_projects_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/projects.css */ \"./src/css/projects.css\");\n/* harmony import */ var _css_projects_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_projects_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/common.css */ \"./src/css/common.css\");\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_common_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction Projects() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"projects\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"heading\"\n  }, \" Projects \"));\n}\n\n//# sourceURL=webpack:///./src/js/projects.jsx?");
 
 /***/ })
 
