@@ -13,7 +13,7 @@ export default class Experience extends React.Component {
 
     componentDidMount(){
         this.refs.stackhpcLogo.setAttribute("src", "public/dist/" + stackhpcLogo)
-        this.refs.justEatLogo.setAttribute("src", "public/dist/" + justEatLogo)
+        // this.refs.justEatLogo.setAttribute("src", "public/dist/" + justEatLogo)
         this.refs.virtusaLogo.setAttribute("src", "public/dist/" + virtusaLogo)
     }
 
@@ -27,11 +27,30 @@ export default class Experience extends React.Component {
                         <img className="pl-3 virtusa-logo" ref="virtusaLogo"/>
                         </div>
                         <div className="pl-5 col experience-text"> Virtusa </div>
-                        <div className="col experience-position"> Full Stack Engineer </div>
+                        <div className="col experience-position"> Full Stack Engineer (Ongoing) </div>
                     </div>
                     <div className="pt-2 jumbotron-underline"> </div>
                     <ul className="pt-3">
-                        <li> Hello World </li>
+                        <li> Work involved the development w.r.t. security of several components of a micro-service based
+                            application designed to display and allow the configuration of a users broadband and television subscriptions.
+                            Achieving this involved building a comprehensive understanding of common authentication and authorization protocols
+                            e.g. SAML 2.0, OpenID Connect, OAuth 2.0, JWT, SSL/TLS Certificates etc.
+                        </li>
+                        <li> Developed a party management micro-service component involved in the registration and provisioning of users
+                            to an WSO2 Identity Server instance, an identity provier (IdP) server. 
+                        </li>
+                        <li> Developed the project's web application login to correctly initiate an OpenID Connect "authorization code" flow
+                            with the IdP, parse access tokens after user authentication and request confidential user attributes with the access token
+                            to personalise the user's experience.
+                        </li>
+                        <li> Extended the WSO2 user provisioning logic to migrate users from our client's user SQL database to our optimised
+                            LDAP user store on user authentication.
+                        </li>
+                        <li> Configured SAML SSO and Federated Authentication (and thus Federated SSO) functionality in our IdP server
+                            to authenticate with our client's other IdP servers that manage other services.
+                        </li>
+                        <li> Configured multi-factor authentication and code verification based on a SMS OTP (One time password ) </li>
+                        <li> Ongoing... </li>
                     </ul>
                 </div>
                 <div className="jumbotron jumbotron-style">
@@ -74,7 +93,7 @@ export default class Experience extends React.Component {
                         </li>
                     </ul>
                 </div>
-                <div className="jumbotron jumbotron-style">
+                {/* <div className="jumbotron jumbotron-style">
                     <div className="row">
                         <div className="logo-image">
                         <img className="pl-3 justeat-logo" ref="justEatLogo"/>
@@ -88,7 +107,7 @@ export default class Experience extends React.Component {
                         <li>Tea</li>
                         <li>Milk</li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         )
     }
