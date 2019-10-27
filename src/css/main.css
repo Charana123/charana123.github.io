@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+}
+
+#main {
+    width: calc(100% - 160px);
+    position: absolute;
+    top: 0px;
+    left: 160px;
+}
+
+#intro {
+    height: 750px;
+    color: white;
+}
+
+.bg {
+    background-image: url("../background.jpeg");
+    background-color: rgba(0,0,0,1);
+    background-position: absolute;
+    top: 0;
+    left: 0;
+}
