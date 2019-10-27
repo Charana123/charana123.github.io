@@ -14,10 +14,10 @@ export default function AboutMe() {
                 challenging topics - cryptography, quantum information theory, algorithm design, machine learning,
                 computer graphics to traditional fullstack engineering.
                 My efforts since 2 years ago have moved towards architecting and developing complex software systems, 
-                to which there are several facets. Front-End (React, Angular), Backend (Golang, NodeJS, Java, C++),
+                to which there are several facets - Front-End (React, Angular), Backend (Golang, NodeJS, Java, C++),
                 Scalability (FAAS, Docker, Microservices, Kubernetes), Security (Identity
-                and Access Management), Asynchronous Message Passing (Apache Kafka), Monitoring and Logging (Grafana), 
-                Datastore (Redis, NoSQL and SQL Databases). Take a look at Experience and Projects to see how i've worked with
+                and Access Management), Interprocess Communication (Apache Kafka, REST), Monitoring and Logging (Grafana), 
+                Data Storage (Redis, NoSQL and SQL Databases). Take a look at Experience and Projects to see how i've worked with
                 these technologies, enjoy :).
             </div>
         </div>
