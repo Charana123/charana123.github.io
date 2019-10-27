@@ -13,6 +13,7 @@
     z-index: 1;
     background-color: black;
     color: rgb(150, 0, 0);
+    box-shadow: 1px 0px 10px maroon;
 }
 
 .logo-container {
@@ -27,17 +28,6 @@
 .logo-text {
     font-size: 13px;
 }
-body {
-    width: 100%;
-}
-
-#main {
-    width: calc(100% - 160px);
-    position: absolute;
-    top: 0px;
-    left: 160px;
-}
-
 #intro {
     height: 750px;
     color: white;
@@ -50,8 +40,35 @@ body {
     top: 0;
     left: 0;
 }
-
-.name {
+.heading {
+    margin-left: 30px;
     font-size: 60px;
     border-bottom: 2px solid maroon;
+}
+
+.jumbotron-style {
+    background-color: black;
+    margin: 25px 100px 25px 100px;
+    padding: 0px;
+    color: rgb(200, 191, 191);
+}
+#about {
+    height: 350px;
+    color: white;
+}
+body {
+    width: 100%;
+}
+
+#main {
+    width: calc(100% - 160px);
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    
+    background-color: black;
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, rgba(128,0,0,0.3) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(128,0,0,0.3) 1px, transparent 1px);
 }

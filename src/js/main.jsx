@@ -9,17 +9,10 @@ import 'jquery'
 import 'popper.js'
 // Custom Components and Styles
 import NavBar from "./navbar.jsx"
+import Intro from "./intro.jsx"
+import AboutMe from "./about.jsx"
 import '../css/main.css'
 
-function Intro() {
-  return (
-    <div id="intro" className="bg">
-      <span className="ml-3 name"> 
-        Charana Nandasena
-      </span>
-    </div>
-  )
-}
 
 function MainPage() {
     return (
@@ -27,10 +20,10 @@ function MainPage() {
       <NavBar/>
       <div id="main">
         <div data-spy="scroll" data-target="#scroll-spyed-list" data-offset="0">
-          <span id="intro1"> </span>
+          <span id="intro"> </span>
           <Intro/>
-          <span id="intro2"> </span>
-          <Intro/>
+          <span id="about"> </span>
+          <AboutMe/>
         </div>
       </div>    
       </React.Fragment>
