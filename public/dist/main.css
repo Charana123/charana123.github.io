@@ -28,7 +28,7 @@
 .logo-text {
     font-size: 13px;
 }
-#intro {
+#intro-container {
     height: 750px;
     color: white;
 }
@@ -99,8 +99,9 @@
     border-bottom: 1px solid maroon;
 }
 #projects-container {
-    height: 300px;
+    height: 1500px;
     color: white;
+    font-size: 14px;
 }
 #education-container {
     height: 300px;

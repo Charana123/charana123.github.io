@@ -4,7 +4,7 @@ import '../css/common.css'
 
 export default function Intro() {
     return (
-      <div id="intro" className="bg">
+      <div id="intro-container" className="bg">
         <span className="heading"> 
           Charana Nandasena
         </span>

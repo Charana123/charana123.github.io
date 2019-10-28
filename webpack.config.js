@@ -21,7 +21,6 @@ module.exports = {
                           presets: ['@babel/preset-env', '@babel/preset-react']
                         }
                     },
-                    "html-loader"
                 ]
             },
             {
@@ -32,7 +31,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|jpe?g|gif)$/i,
+                test: /\.(png|jpe|jpeg|gif|woff|woff2|eot|ttf|svg)(\?.*$|$)/,
                 use: {
                     loader: 'file-loader',
                 },
