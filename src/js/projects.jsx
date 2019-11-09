@@ -59,7 +59,20 @@ export default function Projects() {
                     </h4>
                     <p> C </p>
                     <ul>
-                        <li> One </li>
+                        <li> An implementation of the LB Fluid Simulation Methods optimised and fine-tuned for University of Bristol's BlueCrystal 4 Cluster </li>
+                        <li> Optimized to vectorize computation withs Intels AVX2 ISEs (Intrustion Set Extensions). </li>
+                        <li> MPI (OpenMPI): The processing of the fluid grid was distributed by allocating individual nodes of a cluster with a subgrid, the subgrid
+                            is processed exclusively by its node and scynhronized amoung nodes each iteration.
+                        </li>
+                        <li> CPU Implementation (OpenMP): 
+                            The subgrid was further parallelised amoung all CPUs/Thread of the node.
+                        </li>
+                        <li> GPU Implementation (OpenCL): 
+                            The subgrid was divided amoung all GPUs of a node.
+                        </li>
+                        <li> For a complete list of CPU and GPU optimisation, look 
+                            <a href="https://github.com/Charana123/D2Q9-fluid-simulator/blob/master/report.pdf"> here </a>
+                        </li>
                     </ul>
                 </div>
                 <div className="col-6 mt-4">
