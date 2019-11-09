@@ -16,6 +16,9 @@ export default function Projects() {
                         </a>
                     </h4>
                     <p> React, Bootstrap 4, Webpack, Babel </p>
+                    <ul> 
+                        <li> Simple static website </li>
+                    </ul>
                 </div>
                 <div className="col-6 mt-4">
                     <h4> 
@@ -25,6 +28,9 @@ export default function Projects() {
                         </a>
                     </h4>
                     <p> Angular, Typescript, Travis CI, Karma, Jasmine, Sinon, Babel, Grunt </p>
+                    <ul> 
+                        <li> Description under Experience - StackHPC </li>
+                    </ul>
                 </div>
                 <div className="col-6 mt-4">
                     <h4> 
@@ -34,6 +40,9 @@ export default function Projects() {
                         </a>
                     </h4>
                     <p> Angular, Typescript, Travis CI, Karma, Jasmine, Sinon, Babel, Grunt </p>
+                    <ul> 
+                        <li> Description under Experience - StackHPC </li>
+                    </ul>
                 </div>
                 <div className="col-6 mt-4">
                     <h4> 
@@ -106,9 +115,22 @@ export default function Projects() {
                             <li className="pl-2 fa fa-github" > </li>
                         </a>
                     </h4>
-                    <p> Docker, HTML, CSS, Javascript, MySQL </p>
+                    <p> HTML, CSS, Javascript, NodeJS, Docker, SQLite 3, EJS, WebGL, AJAX </p>
                     <ul>
-                        <li> One </li>
+                        <li> A Website with a front-end written purely in HTML, CSS and Javascript and NodeJS backend </li>
+                        <li> The website is an educational tool for users to learn javascript by completing code challenges in Javascript.
+                            The user once logged will have his progress through challenges tracked, be able to post forum threads, reply to comments.
+                        </li>
+                        <li> User submissions are run with node as an secure, isolated job in a docker container </li>
+                        <li> All post, comment, code, login, signup submissions are captcha verified before authorized </li>
+                        <li> Webserver support HTTPS with a self-signed certificate </li>
+                        <li> The landing page renders an interactive WebGL graphic </li>
+                        <li> The backend datastore is an SQLLite database. Tables have been designed modularly to reduce read/write contention.
+                            Each table supports an extensible high level API. All data is encrypted and user passwords are stored as salted hashes.
+                        </li>
+                        <li> Supports sessions throught browser cookies and a personalised experience with server side 
+                            rendered HTML based on session and profile data.    
+                        </li>
                     </ul>
                 </div>
                 <div className="col-6 mt-4">
