@@ -86,30 +86,6 @@ export default function Projects() {
                 </div>
                 <div className="col-6 mt-4">
                     <h4>
-                        FTP Server
-                        <a href="https://github.com/Charana123/ftp.git" style={{"color": "white"}}>
-                            <li className="pl-2 fa fa-github" > </li>
-                        </a>
-                    </h4>
-                    <p> Golang </p>
-                    <ul>
-                        <li> One </li>
-                    </ul>
-                </div>
-                <div className="col-6 mt-4">
-                    <h4>
-                        Music Genre Classifier
-                        <a href="https://github.com/Charana123/Music-Genre-Classifier-DCNN" style={{"color": "white"}}>
-                            <li className="pl-2 fa fa-github" > </li>
-                        </a>
-                    </h4>
-                    <p> Python, TensorFlow </p>
-                    <ul>
-                        <li> One </li>
-                    </ul>
-                </div>
-                <div className="col-6 mt-4">
-                    <h4>
                         Javascript Code Dojo
                         <a href="https://github.com/Charana123/Web-Technologies" style={{"color": "white"}}>
                             <li className="pl-2 fa fa-github" > </li>
@@ -133,7 +109,7 @@ export default function Projects() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-6 mt-4">
+                {/* <div className="col-6 mt-4">
                     <h4>
                         RTC Chat
                         <a href="https://github.com/Charana123/rtc-chat.git" style={{"color": "white"}}>
@@ -145,7 +121,30 @@ export default function Projects() {
                         <li> A scalable, distributed chat application that communicates in real-time through WebSocket </li>
                     </ul>
                 </div>
-                
+                <div className="col-6 mt-4">
+                    <h4>
+                        FTP Server
+                        <a href="https://github.com/Charana123/ftp.git" style={{"color": "white"}}>
+                            <li className="pl-2 fa fa-github" > </li>
+                        </a>
+                    </h4>
+                    <p> Golang </p>
+                    <ul>
+                        <li> One </li>
+                    </ul>
+                </div>
+                <div className="col-6 mt-4">
+                    <h4>
+                        Music Genre Classifier
+                        <a href="https://github.com/Charana123/Music-Genre-Classifier-DCNN" style={{"color": "white"}}>
+                            <li className="pl-2 fa fa-github" > </li>
+                        </a>
+                    </h4>
+                    <p> Python, TensorFlow </p>
+                    <ul>
+                        <li> One </li>
+                    </ul>
+                </div> */}
             </div>
         </div>
     )

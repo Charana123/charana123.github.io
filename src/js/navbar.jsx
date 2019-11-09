@@ -11,12 +11,20 @@ export default function NavBar() {
         </div>
         <div id="scroll-spyed-list" className="list-group">
             <a className="list-group-item list-group-item-action"
-                href="#intro1">
-                Link 1
+                href="#intro">
+                Intro
             </a>
             <a className="list-group-item list-group-item-action"
-                href="#intro2">
-                Link 2
+                href="#about">
+                About
+            </a>
+            <a className="list-group-item list-group-item-action"
+                href="#experience">
+                Experience
+            </a>
+            <a className="list-group-item list-group-item-action"
+                href="#projects">
+                Projects
             </a>
         </div>
         </nav>

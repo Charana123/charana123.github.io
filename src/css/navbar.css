@@ -22,3 +22,7 @@
 .logo-text {
     font-size: 13px;
 }
+
+.list-group-item-action, .list-group-item-action:hover {
+    background-color: black;
+}
